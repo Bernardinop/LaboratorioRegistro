@@ -1,9 +1,9 @@
 ﻿using LaboratorioRegistro.Edu.Kinal.LabDos.Entities;
-public class Sistema
+public class program
 {
+    private static List<Persona> ListaGeneral = new List<Persona>();
     public static void Main(string[] args)
     {
-        List<Persona> ListaGeneral = new List<Persona>();
 
         Alumno alumno = new Alumno(Guid.NewGuid().ToString(), "Payeras", "Bernardino", "payeras@gmail.com", "2022-001", 100);
         Alumno alumno2 = new Alumno(Guid.NewGuid().ToString(), "Medina", "Daniel", "dmedina@gmail.com", "2022-002", 90);
@@ -21,7 +21,7 @@ public class Sistema
         QuitarAsignatura(ListaGeneral);
 
     }
-    static void OperarRegistro(List<Persona> elemento)
+    public static void OperarRegistro(List<Persona> elemento)
     {
         Console.WriteLine($"REGISTRO GENERAL");
         foreach (Persona persona in elemento)
@@ -36,16 +36,16 @@ public class Sistema
             }
         }
     }
-    static void RegistarAsistencia(List<Persona> elemento)
+    public static void RegistarAsistencia(List<Persona> elemento)
     {
-        Console.WriteLine($"RRGISTRO DE ASISTENCIA");
+        Console.WriteLine($"REGISTRO DE ASISTENCIA");
         foreach (Persona persona in elemento)
         {
             persona.TomarAsistencia();
         }
     }
 
-    static void VerMisDatos(List<Persona> elemento)
+    public static void VerMisDatos(List<Persona> elemento)
     {
         Console.WriteLine($"DATOS PERSONALES");
         foreach (Persona persona in elemento)
@@ -60,7 +60,7 @@ public class Sistema
             }
         }
     }
-    static void QuitarAsignatura(List<Persona> elemento)
+    public static void QuitarAsignatura(List<Persona> elemento)
     {
         Console.WriteLine($"QUITAR ASIGNATURA");
         foreach (Persona persona in elemento)
