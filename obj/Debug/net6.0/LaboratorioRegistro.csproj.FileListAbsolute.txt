@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\bin\Debug\net6.0\LaboratorioRegistro.exe
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\bin\Debug\net6.0\LaboratorioRegistro.deps.json
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\bin\Debug\net6.0\LaboratorioRegistro.runtimeconfig.json
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\bin\Debug\net6.0\LaboratorioRegistro.dll
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\bin\Debug\net6.0\ref\LaboratorioRegistro.dll
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\bin\Debug\net6.0\LaboratorioRegistro.pdb
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\LaboratorioRegistro.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\LaboratorioRegistro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\LaboratorioRegistro.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\LaboratorioRegistro.AssemblyInfo.cs
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\LaboratorioRegistro.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\LaboratorioRegistro.dll
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\ref\LaboratorioRegistro.dll
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\LaboratorioRegistro.pdb
+C:\Users\HP\Desktop\2020\NET\Backend\trabajos\LaboratorioRegistro\LaboratorioRegistro\obj\Debug\net6.0\LaboratorioRegistro.genruntimeconfig.cache
