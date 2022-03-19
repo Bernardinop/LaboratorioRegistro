@@ -9,17 +9,17 @@ namespace LaboratorioRegistro.Edu.Kinal.LabDos.Entities
 
         public override void TomarAsistencia()
         {
-            Console.WriteLine($"Asistencia alumno: {this.Apellidos} {this.Nombres} con carné: {this.Carne}");
+            Console.WriteLine($"Tomando asistencia de {this.Apellidos} {this.Nombres}");
         }
 
         public void ListarMisDatos(string identificador)
         {
-            Console.WriteLine($"Datos Generales del alumno: UUID: {this.UUID}, Apellidos: {this.Apellidos}, Nombres: {this.Nombres}, Número de Créditos {this.NumeroCreditos}");
+            Console.WriteLine($"{this.UUID} {this.Apellidos} {this.Nombres} {this.NumeroCreditos}");
         }
 
         public bool EliminarAsignatura(string asignatura)
         {
-            Console.WriteLine($"Se ha eliminado la asignatura del alumno {this.Apellidos} {this.Nombres}, perdera la cantidad de créditos {this.NumeroCreditos}");
+            Console.WriteLine($"Se ha eliminado la asignatura de {this.Apellidos} {this.Nombres}, perdera la cantidad de créditos {this.NumeroCreditos}");
             return true;
         }
 

@@ -6,7 +6,6 @@ namespace LaboratorioRegistro.Edu.Kinal.LabDos.Entities
         public string Apellidos { get; set; }
         public string Nombres { get; set; }
         public string Email { get; set; }
-
         public abstract void TomarAsistencia();
         public Persona()
         {
@@ -18,6 +17,5 @@ namespace LaboratorioRegistro.Edu.Kinal.LabDos.Entities
             this.Nombres = nombres;
             this.Email = email;
         }
-
     }
 }

@@ -6,23 +6,19 @@ namespace LaboratorioRegistro.Edu.Kinal.LabDos.Entities
     {
         public string CUI { get; set; }
         public string Cargo { get; set; }
-
         public override void TomarAsistencia()
         {
-            Console.WriteLine($"Asistencia Profesor: {this.Apellidos} {this.Nombres} con cargo: {this.Cargo}"); ;
+            Console.WriteLine($"Tomando Asistencia de {this.Apellidos} {this.Nombres}");
         }
-
         public void ListarMisDatos(string identificador)
         {
-            Console.WriteLine($"Datos Generales del profesor: UUID: {this.UUID}, Apellidos: {this.Apellidos}, Nombres: {this.Nombres}, Cargo: {this.Cargo}");
+            Console.WriteLine($"{this.UUID} {this.Apellidos} {this.Nombres} {this.Cargo}");
         }
-
         public bool EliminarAsignatura(string asignatura)
         {
-            Console.WriteLine($"Se ha eliminado la asignatura del profesor {this.Apellidos} {this.Nombres}");
+            Console.WriteLine($"Se ha elminado la asignatura {this.Apellidos} {this.Nombres}");
             return true;
         }
-
         public Profesor()
         {
         }
